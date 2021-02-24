@@ -1,4 +1,4 @@
-package map_benchmarks
+package simd_benchmarks
 
 import (
 	"testing"
@@ -46,7 +46,6 @@ func BenchmarkAdd_Multiple4(b *testing.B) {
 
 	_ = count
 }
-
 
 func BenchmarkAdd_Multiple8(b *testing.B) {
 	var count int
